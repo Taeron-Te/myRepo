@@ -1,23 +1,53 @@
-
-@media (orientation: portrait) {
-    body{
-        background: radial-gradient(black, blueviolet) no-repeat;
-        background-size: auto 100vh;
-    }
+.SExmpClass {
+    background: linear-gradient( rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+    padding-bottom: 14em;
+    margin-bottom: -12em;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (orientation: landscape) {
-    body{
-        display: f;
-        background-color: #ff7676;
-        color:#ff7676;
-        text-shadow: firebrick;
-    }
-} 
+.SExmpClass p {
+    background: linear-gradient(to left bottom, #12BCB0 20%, #d7e740);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
 
-.STableStyle{
-    padding: 0px;
-    color: red;
-    background-color: aquamarine;
-    
+.SExmpClass img {
+    height: 990px;
+    align-self: center;
+}
+
+.tabind1 {
+    background: linear-gradient(to left, #c0c0c0 30%, #242424);
+    color: rgb(236, 57, 57);
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.tabind1:hover {
+    color: rgb(109, 111, 235);
+    background: #12BCB0;
+    transition: 1s;
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.tabind1:focus {
+    color: rgb(121, 0, 0);
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.tabind1:active {
+    color: #000000;
+    transition: 0.2s;
+    transform: rotate3d(0, 1, 0, 189grad);
+}
+
+body {
+    margin: -40px 0 0 0;
 }
