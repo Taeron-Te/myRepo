@@ -10,6 +10,8 @@
     body{
         display: f;
         background-color: #ff7676;
+        color:#ff7676;
+        text-shadow: firebrick;
     }
 } 
 
