@@ -1,0 +1,54 @@
+hero
+- герои и персонажи
+id - id
+name - имя персоанжа или название моба
+family - фамилия, если она есть, то это игрок, если нет, то моб
+nickname - прозвище
+age - возраст
+race - раса существа
+class - игровой класс
+healthMax - максимальное количество хп
+healthCur - текущие количество хп
+armourMax - макстмальное колво брони
+armourCur - тек колво брони
+shieldMax - максимальное количество щита
+shieldCur - текущее количество щита
+shReducePercent - % поглощения уроан щитов
+doPointsPerTurn - количество очков действия на ход
+strenght  - характеристика сила
+durability - стойкость (контр сила)
+evasion	- уклонение (контр тончость)
+accuracy - точностт
+armourHead - броня головы
+armourTorso - тела
+armourArms - рук
+armourLegs - ног
+armourBack - спины
+accsessBack - снаряжение на спине
+accsessFi - аксессуар (брелок, доп бронепластина)
+accsessS - --\--
+accsessT - --\--
+accsessFo - --\--
+leftHandWeapon - оружие левой руки
+rightHandWeapon - оружие прравой руки
+alterWeapon - алтернативное оружие (нож типо)
+specWeapon - оружие которое относится классовому
+twoHandsWeapon - двуручное оружие
+throwWeaponF - метальное оружие (гранаты, ножи)
+throwWeaponS - --\--
+throwWeaponT - --\--
+effects[] - масстив баффов и дебаффов
+
+race
+- раса
+id - id 
+walkRange - дальность хода, нормальная для этой расы
+health - здоровье, нормальное для этой расы
+bonusManaMin - нижний порог бонусного колиества маны для псайкеров этой расы (любое число)
+bonusManaMax - верхний порог (любое число)
+bonusS - бонусная сила
+bonusD - бонусная стойкость
+bonusE - уклонение
+bonusA - точность
+raceMeleeAttack - рассовая атака ближнего боя
+doPoints - нормальное количество очков дейвствия для этой расы
