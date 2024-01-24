@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="container" style="background: rgb(255, 255, 255);">
+    <div class="container" style="background: rgb(175, 175, 175);">
         <div class="row">
             <div class="col-1">
                 <button id="clickAdd" type="button" class="btn btn-primary" onclick="addOne()"> clickAdd </button>
@@ -35,6 +35,78 @@
                 <span id="someID" class="badge bg-secondary">0</span>
             </div>
         </div>
+    </div>
+    <br>
+    <br>
+    <form id="mars-once" action="/apply/" method="POST">
+        <label>
+          Ваше имя:
+          <input type="text" name="name" id="name" placeholder="Илон Маск" required autofocus>
+        </label>
+
+        <label>
+          Почта:
+          <input type="email" name="email" id="email" placeholder="elon@musk.com" required>
+        </label>
+
+        <label>
+          Возраст:
+          <input type="number" name="age" required>
+        </label>
+
+        <label>
+          Профессия:
+          <select name="specialization" required>
+            <option value="engineer" selected>Инженер</option>
+            <option value="scientist">Учёный</option>
+            <option value="psychologist">Психолог</option>
+            <option value="other">Другая</option>
+          </select>
+        </label>
+
+        <label>
+          Я работал в NASA
+          <input type="checkbox" name="nasa-experience" value="1">
+        </label>
+
+        <label>
+          Фото:
+          <input type="file" accept="image/jpeg" name="photo" required>
+        </label>
+
+        <button type="submit">Отправить заявку</button>
+    </form>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <form id="useFun" action="/apply/" method="POST">
+                    <label>
+                      <input type="number" name="el1" required>
+                    
+                     <!--  <input type="text" name="oper-nelogic" required>
+                    -->
+                      <select name="oper-logic" id="ope" required>
+                        <option value="plus" selected>+</option>
+                        <option value="minus">-</option>
+                        <option value="mult">*</option>
+                        <option value="part">/</option>
+                        <option value="pow">^</option>
+                      </select>
+                    
+                      <input type="number" name="el2" required>
+                    
+                      <button type="submit"><h2><span id="rez" class="badge bg-secondary">0</span></h2></button>
+                    </label>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table" id="my-table">
+
+        </table>
     </div>
 </body>
 
